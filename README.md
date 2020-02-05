@@ -1,6 +1,6 @@
 # Dire RPG Rework
 
-In the past I was working on building a SPA with pure vanilla JS. The work can be found at [www.direRPG.xzy](www.direrpg.xyz).
+In the past I was working on building a SPA with pure vanilla JS. The work can be found at [www.direRPG.xzy](http://www.direrpg.xyz).
 
 Partway through the project I encountered the following issues with this approach:
 
