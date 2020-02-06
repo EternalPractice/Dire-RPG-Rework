@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-    <OutcomeTable :outcomes="['1 damage', '2 damage']" />
+    <Header />
+    <router-view />
+    <Footer />
   </div>
 </template>
 
 <script>
-import OutcomeTable from "./components/OutcomeTable.vue";
+import Header from "./components/layout/Header.vue";
+import Footer from "./components/layout/Footer.vue";
 
 export default {
   name: "app",
-  components: { OutcomeTable }
+  components: { Header, Footer }
 };
 </script>
 
@@ -18,8 +21,5 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
