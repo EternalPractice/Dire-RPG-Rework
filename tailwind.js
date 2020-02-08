@@ -1,6 +1,12 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        navy: "#172d64",
+        lightGrey: "#3c3c3c",
+        darkGrey: "#1e1e1e"
+      }
+    }
   },
   variants: {
     backgroundColor: [
