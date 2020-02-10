@@ -1,8 +1,13 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "@/pages/Home";
-import About from "@/pages/About";
-import Test from "@/pages/Test";
+import Rules from "@/pages/Rules";
+import Attributes from "@/pages/Attributes";
+import Skills from "@/pages/Skills";
+import Schools from "@/pages/Schools";
+import Magic from "@/pages/Magic";
+import Items from "@/pages/Items";
+import Login from "@/pages/Login";
 
 Vue.use(Router);
 
@@ -14,14 +19,39 @@ export default new Router({
       component: Home
     },
     {
-      path: "/about",
-      name: "about",
-      component: About
+      path: "/rules",
+      name: "rules",
+      component: Rules
     },
     {
-      path: "/test",
-      name: "test",
-      component: Test
+      path: "/attributes",
+      name: "attributes",
+      component: Attributes
+    },
+    {
+      path: "/skills",
+      name: "skills",
+      component: Skills
+    },
+    {
+      path: "/schools",
+      name: "schools",
+      component: Schools
+    },
+    {
+      path: "/magic",
+      name: "magic",
+      component: Magic
+    },
+    {
+      path: "/items",
+      name: "items",
+      component: Items
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: Login
     }
   ]
 });

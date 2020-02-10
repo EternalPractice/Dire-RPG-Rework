@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="app"
-    class="h-screen w-screen mh-screen mw bg-darkGrey text-sm leading-tight text-center text-white"
-  >
+  <div id="app" class="">
     <Header />
     <router-view />
     <Footer />
@@ -21,4 +18,23 @@ export default {
 
 <style>
 @import "./assets/css/normalize.css";
+
+#app {
+  height: 100%;
+  min-height: 100vh;
+  max-width: 2200px; /* Centers content on ultrawide screens */
+  margin: 0 auto;
+
+  /* Color matches my vs code setup */
+  background: rgb(30, 30, 30);
+  color: rgb(204, 204, 204);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.6rem auto 2.6rem;
+  grid-template-areas:
+    "header"
+    "article"
+    "footer";
+}
 </style>
