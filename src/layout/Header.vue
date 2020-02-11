@@ -1,20 +1,28 @@
 <template>
   <header class="">
-    <router-link to="/">Home</router-link>
-    <router-link to="/rules">Rules</router-link>
-    <router-link to="/attributes">Attributes</router-link>
-    <router-link to="/skills">Skills</router-link>
-    <router-link to="/schools">Schools</router-link>
-    <router-link to="/magic">Magic</router-link>
-    <router-link to="/items">Items</router-link>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/rules">Rules</router-link>
+      <router-link to="/attributes">Attributes</router-link>
+      <router-link to="/skills">Skills</router-link>
+      <router-link to="/schools">Schools</router-link>
+      <router-link to="/magic">Magic</router-link>
+      <router-link to="/items">Items</router-link>
+      <router-link to="/login" class="end">Login</router-link>
+    </nav>
 
-    <router-link to="/login" class="end">Login</router-link>
+    <span @click="test"><i class="fas fa-bars"/></span>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  methods: {
+    test: function() {
+      alert("test");
+    }
+  }
 };
 </script>
 
@@ -25,16 +33,28 @@ header {
   top: 0;
   background: rgb(60, 60, 60);
   display: flex;
+  justify-content: flex-end;
 }
 
-header a {
+nav {
+  display: flex;
+  margin-right: auto;
+}
+
+nav a,
+.fa-bars {
   padding: 0.65rem 0.5rem;
   text-decoration: none;
   color: rgb(204, 204, 204);
 }
 
-header a:hover {
+nav a:hover {
   background: rgb(47, 92, 206);
+}
+
+.fa-bars {
+  font-size: 1.25rem;
+  /* display: none; */
 }
 
 .router-link-exact-active {
@@ -42,7 +62,6 @@ header a:hover {
 }
 
 .end {
-  margin-left: auto;
-  margin-right: 0px;
+  /* MAKE THIS PUSH LOGIN TO THE END */
 }
 </style>
