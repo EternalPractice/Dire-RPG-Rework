@@ -14,7 +14,7 @@
     <ul>
       <li>Create the SQL layout for school & perks</li>
       <li>Make layout for the 9 schools</li>
-      <li>Create components for cards (picture only, stats with picture</li>
+      <li>Create components for cards (picture only, stats with picture)</li>
     </ul>
   </div>
 </template>
