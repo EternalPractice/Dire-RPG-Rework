@@ -1,5 +1,5 @@
 <template>
-  <header class="">
+  <header class>
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/rules">Rules</router-link>
@@ -11,7 +11,9 @@
       <router-link to="/login" class="end">Login</router-link>
     </nav>
 
-    <span @click="test"><i class="fas fa-bars"/></span>
+    <span @click="test">
+      <i class="fas fa-bars" />
+    </span>
   </header>
 </template>
 
@@ -28,7 +30,6 @@ export default {
 
 <style>
 header {
-  grid-area: header;
   position: sticky;
   top: 0;
   background: rgb(60, 60, 60);

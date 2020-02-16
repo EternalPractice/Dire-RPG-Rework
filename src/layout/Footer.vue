@@ -1,11 +1,11 @@
 <template>
-  <footer class=" ">
+  <footer class>
     <p>Copyright (c) {{ new Date().getFullYear() }} Alex Irvine</p>
     <p>
       Licensed under a
-      <a href="https://creativecommons.org/licenses/by/4.0/">
-        Creative Commons Attribution License</a
-      >
+      <a
+        href="https://creativecommons.org/licenses/by/4.0/"
+      >Creative Commons Attribution License</a>
     </p>
   </footer>
 </template>
@@ -18,7 +18,6 @@ export default {
 
 <style>
 footer {
-  grid-area: footer;
   text-align: center;
   position: sticky;
   bottom: 0;

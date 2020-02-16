@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="">
+  <div id="app" class>
     <Header />
     <router-view />
     <Footer />
@@ -22,8 +22,6 @@ export default {
 #app {
   height: 100%;
   min-height: 100vh;
-  max-width: 2200px; /* Centers content on ultrawide screens */
-  margin: 0 auto;
 
   /* Color matches my vs code setup */
   background: rgb(30, 30, 30);
@@ -32,9 +30,5 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2.6rem auto 2.6rem;
-  grid-template-areas:
-    "header"
-    "article"
-    "footer";
 }
 </style>
