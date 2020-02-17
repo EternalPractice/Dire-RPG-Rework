@@ -1,7 +1,9 @@
 <template>
   <div class="PictureCard">
     <img :src="pictureSource" alt="<slot />" />
-    <p><slot /></p>
+    <p class="text">
+      <slot />
+    </p>
   </div>
 </template>
 
@@ -26,6 +28,13 @@ export default {
 }
 
 img {
+  padding-top: 20%;
+  padding-left: 10%;
   max-width: 75%;
+}
+
+.text {
+  text-align: center;
+  font-size: 1.2rem;
 }
 </style>
