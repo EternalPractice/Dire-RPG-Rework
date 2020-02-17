@@ -16,13 +16,17 @@
       <li>Make layout for the 9 schools</li>
       <li>Create components for cards (picture only, stats with picture)</li>
     </ul>
+
+    <PictureCard pictureSource="https://i.ytimg.com/vi/WyOzKG3OoBg/hqdefault.jpg">This is a birb</PictureCard>
   </div>
 </template>
 
 <script>
+import PictureCard from "../components/PictureCard";
+
 export default {
   name: "Home",
-  components: {}
+  components: { PictureCard }
 };
 </script>
 

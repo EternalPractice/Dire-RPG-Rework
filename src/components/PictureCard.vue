@@ -1,7 +1,7 @@
 <template>
   <div class="PictureCard">
-    <img :src="pictureSource" alt="<slot />" />
-    <p class="text">
+    <img :src="pictureSource" alt />
+    <p class="innerText">
       <slot />
     </p>
   </div>
@@ -11,8 +11,7 @@
 export default {
   name: "PictureCard",
   props: {
-    pictureSource: String,
-    text: String
+    pictureSource: String
   }
 };
 </script>
@@ -20,20 +19,19 @@ export default {
 <style>
 .PictureCard {
   /*Keeps square shape*/
-  height: 0;
+  height: 20vw;
   width: 20vw;
-  padding-bottom: 20vw;
 
   background: blue;
 }
 
 img {
   padding-top: 20%;
-  padding-left: 10%;
+  padding-left: 12.5%;
   max-width: 75%;
 }
 
-.text {
+.innerText {
   text-align: center;
   font-size: 1.2rem;
 }
