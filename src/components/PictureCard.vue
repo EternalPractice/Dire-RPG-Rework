@@ -1,38 +1,45 @@
 <template>
-  <div class="PictureCard">
-    <img :src="pictureSource" alt />
+  <router-link :to="`/schools/${link}`" class="PictureCard">
+    <img :src="src" />
     <p class="innerText">
       <slot />
     </p>
-  </div>
+  </router-link>
 </template>
 
 <script>
 export default {
   name: "PictureCard",
-  props: {
-    pictureSource: String
-  }
+  props: ["src", "link"]
 };
 </script>
 
 <style>
 .PictureCard {
-  /*Keeps square shape*/
-  height: 20vw;
-  width: 20vw;
+  height: 95%;
+  width: 95%;
+  text-decoration: none;
 
-  background: blue;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid gray;
 }
 
 img {
-  padding-top: 20%;
-  padding-left: 12.5%;
-  max-width: 75%;
+  padding-top: 2%;
+  max-width: 32%;
+  align-self: center;
 }
 
 .innerText {
+  color: rgb(204, 204, 204);
   text-align: center;
   font-size: 1.2rem;
+}
+
+.PictureCard:hover {
+  border: 2px solid lightgray;
+  background: gray;
 }
 </style>

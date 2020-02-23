@@ -3,9 +3,9 @@
     <p>Copyright (c) {{ new Date().getFullYear() }} Alex Irvine</p>
     <p>
       Licensed under a
-      <a
-        href="https://creativecommons.org/licenses/by/4.0/"
-      >Creative Commons Attribution License</a>
+      <a href="https://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution License</a
+      >
     </p>
   </footer>
 </template>
@@ -18,9 +18,12 @@ export default {
 
 <style>
 footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
   text-align: center;
-  position: sticky;
-  bottom: 0;
   background-color: rgb(23, 45, 100);
   line-height: 0;
 }

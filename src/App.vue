@@ -23,6 +23,9 @@ export default {
   height: 100%;
   min-height: 100vh;
 
+  width: 100%;
+  min-width: 100vw;
+
   /* Color matches my vs code setup */
   background: rgb(30, 30, 30);
   color: rgb(204, 204, 204);
