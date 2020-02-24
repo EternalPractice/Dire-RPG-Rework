@@ -1,41 +1,50 @@
 <template>
   <div id="schools">
     <PictureCard
-      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/SwordShield.jpg?raw=true"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/STR.jpeg?raw=true"
       link="might"
-    >School of Might</PictureCard>
+      >School of Might</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/STR-AGI.png?raw=true"
       link="School2"
-    >School of Physical Adeptness</PictureCard>
+      >School of Physical Adeptness</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/STR-INT.jpeg?raw=true"
       link="School3"
-    >School of Superior Tactics</PictureCard>
+      >School of Superior Tactics</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/AGI.png?raw=true"
       link="School4"
-    >School of Nimbleness</PictureCard>
+      >School of Nimbleness</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/AGI-STR.jpg?raw=true"
       link="School5"
-    >School of Acrobatic Strength</PictureCard>
+      >School of Acrobatic Strength</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/AGI-INT.jpg?raw=true"
       link="School6"
-    >School of Deft Cleverness</PictureCard>
+      >School of Deft Cleverness</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/INT.jpg?raw=true"
       link="School7"
-    >School of Pure Reason</PictureCard>
+      >School of Pure Reason</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/INT-STR.png?raw=true"
       link="School8"
-    >School of Intelligent Combat</PictureCard>
+      >School of Intelligent Combat</PictureCard
+    >
     <PictureCard
-      src="https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-1.2.1"
+      src="https://github.com/EternalPractice/Dire-RPG-Rework/blob/master/src/assets/img/INT-PER.jpg?raw=true"
       link="School9"
-    >School of Clever Trickery</PictureCard>
+      >School of Clever Trickery</PictureCard
+    >
   </div>
 </template>
 
@@ -56,4 +65,4 @@ export default {
   place-items: center;
   grid-gap: 10px;
 }
-</style>  
+</style>

@@ -13,8 +13,8 @@
     <p>The following next steps are up for grabs:</p>
     <ul>
       <li>Create the SQL layout for school & perks</li>
-      <li>Make layout for the 9 schools</li>
-      <li>Create components for cards (picture only, stats with picture)</li>
+      <li>Fix School Image size (much later: pay for new art)</li>
+      <li>Create individual school page layout</li>
     </ul>
   </div>
 </template>
