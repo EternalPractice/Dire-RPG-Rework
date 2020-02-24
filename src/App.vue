@@ -1,7 +1,9 @@
 <template>
   <div id="app" class>
     <Header />
-    <router-view />
+    <div class="wrapper">
+      <router-view />
+    </div>
     <Footer />
   </div>
 </template>
@@ -33,5 +35,15 @@ export default {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2.6rem auto 2.6rem;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 </style>

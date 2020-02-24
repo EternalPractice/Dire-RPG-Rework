@@ -4,7 +4,7 @@ import Home from "@/pages/Home";
 import Rules from "@/pages/Rules";
 import Attributes from "@/pages/Attributes";
 import Skills from "@/pages/Skills";
-import Schools from "@/pages/Schools";
+import Schools from "@/pages/Schools/index";
 import Magic from "@/pages/Magic";
 import Items from "@/pages/Items";
 import Login from "@/pages/Login";
