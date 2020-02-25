@@ -1,0 +1,57 @@
+- Dice Mechanics & Outcome table
+  1. Apply modifiers
+  2. Apply MP
+  3. Roll d20 under & degree of success
+- Attributes & stats
+  - HP / AP / MP / XP
+  - FORT / REFL / WILL
+  - STR / END
+  - AGI / REF
+  - INT / WIL
+- Schools
+- Weapons
+  - STR REquirement
+  - AP Cost
+  - Actions & tables
+  - Passive bonuses (+AC for shield)
+  - Slot size
+- Ranged Weapons
+  - Ammo type
+  - Recoil
+  - Clip size
+- Armor
+  - STR Requirement
+  - AC
+  - DR
+  - Slots
+  - Special properties
+- Magic
+  - Practice of Magic
+  - AP Cost
+  - Material / Other Requirements
+  -
+- Skills
+  - Melee
+  - Ranged
+  - Acrobatics
+  - Athletics
+  - Sneak
+  - Sleight of Hand
+  - Ride/Pilot/Drive
+  - Tracking
+  - Animal Handling
+  - First Aid
+  - Persuade
+  - Deceive
+  - Perform
+  - Elements (plus energy, acid, etc.,)
+  - Matter (conjuration & transmutation)
+  - Mental & concepts (divination & illusion)
+  - Life force (restoration & necromancy)
+  - Crafting/Knowledge
+- Combat
+  - Targeted attacks
+  - Damaged limbs
+  - Preparing attacks
+  - Spreading AP across 2 rounds
+  - Interrupting actions
