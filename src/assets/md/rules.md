@@ -61,6 +61,18 @@
 
 # System overview
 
+<u>**Goals**</u>:
+
+- Let the players build the exact character they want.
+- Have attributes & character options make a large impact in how the game is played.
+- In the luck vs skill spectrum, weight it more on skill than luck.
+- Make the rules in such a way that complex actions can be pulled off, but only a few rules need to be called to pull it off.
+
+<u>**Eventual Goals**</u>:
+
+- Make races have a large impact in how the game is played.
+- Have magic feel and behave differently than martial weapons.
+
 # Dice Mechanics
 
 Dire RPG, like a lot of other RPG systems, uses a d20 (20-sided die) to simulate luck and determine if an action succeeds or fails. Unlike a lot of other systems however, it uses a d20 for every roll. There are no separate dice used for damage, no percentile dice, or coin flips. Every action's success & outcome is determined with a single die roll.
@@ -105,3 +117,63 @@ For an example, see the outcome table for damage on a dagger:
 |        10         | 15 damage |
 
 # Attributes
+
+There are 6 attributes in Dire RPG: Strength, Endurance, Agility, Reflexes, Intelligence, and Willpower. These 6 attributes determine most of what a character can learn, what weapons & armor they can wear, and how much they can do in a turn. Each attribute score is valued 1-5, and all start at 3 by default. In order to increase a score, you must decrease another.
+
+## Strength
+
+<u>Benefits:</u>
+
+- Determines what armor you can wear.
+- Determines base damage for unarmed strikes.
+- Determines what weapons and armor you can use.
+- Determines what strength based perk you can learn.
+
+## Endurance
+
+<u>Benefits:</u>
+
+- Determines how much health (HP) you have.
+- Determines what Fortitude saves you automatically pass.
+
+## Agility
+
+<u>Benefits:</u>
+
+- Determines how far you can move for each movement action.
+- Determines what agility based perks you can learn.
+
+## Reflexes
+
+<u>Benefits:</u>
+
+- Determines how much ability points (AP) you have.
+- Determines what Reflex saves you automatically pass.
+
+## Intelligence
+
+<u>Benefits:</u>
+
+- Determines how much experience points (XP) you gain per mission.
+- Determines what intelligence based perks you can learn.
+
+## Willpower
+
+<u>Benefits:</u>
+
+- Determines how much mental power (MP) you have.
+- Determines what Will saves you automatically pass.
+
+## Health Points (HP)
+
+## Ability Points (AP)
+
+## Mental Power (MP)
+
+## Experience Points (XP)
+
+## Fortitude Saves
+
+## Reflex Saves
+
+## Will Saves
