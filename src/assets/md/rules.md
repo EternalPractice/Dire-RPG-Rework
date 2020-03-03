@@ -6,11 +6,12 @@
 - Attributes & stats
   - HP / AP / MP / XP
   - FORT / REFL / WILL
+  - Speed
   - STR / END
   - AGI / REF
   - INT / WIL
 - Schools
-  - Entrance exam
+  - Perks
   - Specializations
   - Dean's approval
 - Weapons
@@ -58,6 +59,10 @@
   - Preparing attacks
   - Spreading AP across 2 rounds
   - Interrupting actions
+- Day structure
+  - Mission Prep
+  - Mission
+  - Upkeep
 
 # System overview
 
@@ -70,7 +75,7 @@
 
 <u>**Eventual Goals**</u>:
 
-- Make races have a large impact in how the game is played.
+- Introduce races into the system.
 - Have magic feel and behave differently than martial weapons.
 
 # Dice Mechanics
@@ -85,7 +90,7 @@ Modifiers can be added or subtracted to the roll if conditions call for it. If t
 
 Multiple modifiers, positive and negative, can take place in the same action. If they do, add all modifiers together for a final modifier. For example, if a character is trying to sneak past a guard inside a prison during a loud riot (+6) but is wearing very bright prison garb (-4), they modifier would be +2 in total.
 
-A character may also spend MP to add their own bonus to the roll after the modifier is determined & before the d20 is rolled. For more information on MP, see the section [on MP, labeled appropriately].
+A character may also spend MP to add their own bonus to the roll after the modifier is determined & before the d20 is rolled. For more information on MP, see the section [Mental Power (MP)](<#Mental-Power-(MP)>).
 
 In summary, every action performed has these steps involved:
 
@@ -166,14 +171,90 @@ There are 6 attributes in Dire RPG: Strength, Endurance, Agility, Reflexes, Inte
 
 ## Health Points (HP)
 
+Health determines how much damage a character can take before passing out or dying. Each point of endurance grants the character 20 HP for a maximum of 100 HP. Characters do not gain HP during the game, but instead increase their survivability through gear and perks.
+
+When a character reaches 0 HP or less, they pass out unconscious and unable to do anything for the rest of the mission. When a character is unconscious, they are considered fighting for their life. See [Section of "fighting for your life"] for more details.
+
+| Endurance Score | HP  |
+| :-------------: | :-: |
+|        1        | 20  |
+|        2        | 40  |
+|        3        | 60  |
+|        4        | 80  |
+|        5        | 100 |
+
 ## Ability Points (AP)
+
+Ability points determine how many actions a character can perform during a given turn. Each point of reflexes grants the character 3 AP for a maximum of 15 AP.
+
+Each action will have an associated AP cost from 1-5, really fast actions costing 1 and really slow actions costing 5. Some high level perks will grant options that can greatly exceed 5 AP, such as casting a powerful spell that requires preparation. For more information on how to use AP, see the [proper section] for more detail.
+
+| Agility Score | AP  |
+| :-----------: | :-: |
+|       1       |  3  |
+|       2       |  6  |
+|       3       |  9  |
+|       4       | 12  |
+|       5       | 15  |
 
 ## Mental Power (MP)
 
+Mental power is used to add another positive modifier to a roll, allowing the character to temporarily push beyond it's limits. Each point of Willpower grants the character 5 MP for a maximum of 25 MP.
+
+As described in the previous section [Dice Mechanics](#Dice-Mechanics), MP's purpose is to modify a roll to increase the character's ability to perform an action better.
+
+| Willpower Score | AP  |
+| :-------------: | :-: |
+|        1        |  5  |
+|        2        | 10  |
+|        3        | 15  |
+|        4        | 20  |
+|        5        | 25  |
+
 ## Experience Points (XP)
+
+Experience points are gained through successful [missions, rename this] and are used to increase a character's skill level or to purchase perks. After each successful [mission, rename this] a character will gain the XP stated multiplied by their intelligence score. These points can be spent during the end of day, or upkeep section.
+
+## Speed
+
+Speed determines how far a character can travel during a move action. Each point of agility allows the character to move 1 extra tile per movement action. Each movement action costs 1 AP.
+
+# Saves
+
+Most actions a character will take are chosen by their player. Sometimes however, a character is caught off guard and has to make an action there were not expecting. These actions are considered saves and have their own set of skills associated with them: fortitude saves, reflex saves and will saves. Saves are considered pass/fail, where negative effects happen when it is failed.
 
 ## Fortitude Saves
 
+Fortitude saves concern withstanding a shock to the physical body, or experiences trauma. Examples include opening a refrigerator and smelling meat that expired 2 years ago, jumping into a hot spring only to find the water freezing, or unknowingly drinking poison.
+
+A fortitude save will have a challenge rating between 1-10. A character will automatically pass the fortitude save if their endurance score is equal to or above the challenge rating.
+
 ## Reflex Saves
 
+Reflex saves are involved when a character has to suddenly move quickly. Examples include jumping off a trap door as it springs open, catching a cork that flew violently off a champaign bottle, or catching yourself when slipping off a tightrope.
+
+A reflex save will have a challenge rating between 1-10. A character will automatically pass the reflex save if their reflex score is equal to or above the challenge rating.
+
 ## Will Saves
+
+Will saves are involved when a character has to keep mental focus against distracting circumstances. Examples include keeping a straight face during negotiations when hearing something shocking, keeping your incantation straight during casting a long spell in combat, or not being overwhelmed by fear when facing your phobia.
+
+A will save will have a challenge rating between 1-10. A character will automatically pass the reflex save if their willpower score is equal to or above the challenge rating.
+
+# The 9 Schools
+
+Within the larger college, there are individual schools that are headed by a dean who runs their own staff. Each school focuses on a particular area of study which are suited to characters with particular attributes. These schools are where characters can learn new perks, study magic, or obtain specialized tools. Each school has a primary attribute focus and a secondary primary attribute focus (see table below). Some schools focus on one and only one attribute and will have a higher requirement for obtaining perks.
+
+| School Name                  | Primary Attribute | Secondary Attribute |
+| :--------------------------- | :---------------- | :------------------ |
+| School of Might              | Strength          | Strength            |
+| School of Physical Adeptness | Strength          | Agility             |
+| School of Superior Tactics   | Strength          | Intelligence        |
+| School of Nimbleness         | Agility           | Agility             |
+| School of Acrobatic Strength | Agility           | Strength            |
+| School of Deft Cleverness    | Agility           | Intelligence        |
+| School of Pure Reason        | Intelligence      | Intelligence        |
+| School of Intelligent Combat | Intelligence      | Strength            |
+| School of Clever Trickery    | Intelligence      | Agility             |
+
+## Perks
