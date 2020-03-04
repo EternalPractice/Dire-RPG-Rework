@@ -14,7 +14,7 @@
   - Perks
   - Specializations
   - Dean's approval
-- Weapons
+- Weapons (melee)
   - STR REquirement
   - AP Cost
   - Actions & tables
@@ -258,3 +258,71 @@ Within the larger college, there are individual schools that are headed by a dea
 | School of Clever Trickery    | Intelligence      | Agility             |
 
 ## Perks
+
+Perks are the special abilities that differentiate one character from another. This can include anything from weapon specialization, machine hacking, alchemy/chemistry skill, and many others. Perks are where the interesting things happen.
+
+Each perk has a level associated with it from 1-5. Level 1 perks are the simpler abilities while level 5 perks are the expert level abilities. Each perk has a XP and attribute requirement based on the level (See table below). When the school has both it's primary and secondary attributes matching, the requirement per level will be higher.
+
+| Perk Level | XP Requirement | Primary Attribute | Secondary Attribute | Primary & Secondary Attribute |
+| :--------: | :------------: | :---------------: | :-----------------: | :---------------------------: |
+|     1      |       5        |         1         |          1          |               2               |
+|     2      |       10       |         2         |          2          |               3               |
+|     3      |       15       |         3         |          3          |               4               |
+|     4      |       20       |         4         |          3          |               5               |
+|     5      |       25       |         5         |          3          |               5               |
+
+Characters can gain these perks during their downtime, see [Section on downtime] for more information.
+
+## Special Perks
+
+Some perks are school secrets and are guarded by the deans, only being taught to those they trust. If a character would pursue learning one of these perks, they would need to obtain approval from the school dean. The dean would then give them a series of tasks that the character would need to do on their missions to earn the ability to obtain these perks. These tasks vary from school to school and from dean to dean.
+
+# Weapons
+
+[Weapons in this system should have an overview. Rewrite this later.]
+
+## Strength Requirement
+
+Each weapon will have a required level of strength to use. A character who does not meet this requirement will not be able to use the weapon properly, and the weapon will be considered a [basic level 1 weapon].
+
+## Size
+
+Each weapon will have a size of 1-handed or 2-handed. A character must use that many hands in order to wield the weapon. There is no penalty for wielding 2 1-handed weapons.
+
+## AP Cost
+
+Each weapon will cost a certain amount of AP to use, indicated by it's AP cost. Each action the weapon can perform will use up this much AP.
+
+## Passive Bonuses
+
+Some weapons will grant the user bonuses while a character is wielding it. Shields for example will grant the character extra AC while some masterwork level weapons will add a positive modifier to the associated skill check.
+
+## Slot Size
+
+Each weapon will have a slot size which represents how much physical space it takes up. In order to pack a weapon, a character must have armor/backpack with enough free slots to accommodate the weapon.
+
+## Ammo Type (Ranged)
+
+Each ranged weapon will have an associated ammo type. Without ammo a ranged weapon cannot work.
+
+## Clip Size (Ranged)
+
+Each ranged weapon will have an amount of ammo it can hold in it's clip before it needs to be reloaded.
+
+## Reload Speed (Ranged)
+
+Reloading a clip/weapon takes an amount of AP indicated by the reload speed.
+
+## Recoil (Ranged)
+
+Recoil is the "kick" the weapon produces when firing. When making multiple shots in a single turn, apply the recoil penalty to each shot after the first. The recoil penalty will stack.
+
+For example, if a character is firing a hunting rifle with recoil of -4, the first shot will have no penalty. The second shot will have a -4 penalty, the third -8, and so on.
+
+## Actions
+
+Each weapon will have a list of actions it can perform & an associated outcome table with each. Some weapons will only have 1 action while others may have many (attack, block, parry with a sword). Actions may have an associated modifier with them if the weapon is ill suited to the task. Attempting to parry with a great sword would be much harder than short sword, and attempt to parry with a sai would be easier. In this parry example, a short sword would have no modifier, the great sword would have -4 while the sai would have +2.
+
+Actions that add a non-damaging effect (such as increasing DR while blocking) do not stack with itself. When a character makes multiple of these actions in a turn, they apply the best bonus. For example, if a character wishes to block with a shield and rolls a 3, they can redo the action for a better score. If the next score is a 8, then they try again and roll a 6, the 8 still is the value used.
+
+# Armor
