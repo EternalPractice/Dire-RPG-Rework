@@ -32,8 +32,6 @@
   - Special properties
 - Magic
   - Practice of Magic
-  - AP Cost
-  - Material / Other Requirements
 - Skills
   - Melee attack
   - Ranged attack
@@ -325,4 +323,122 @@ Each weapon will have a list of actions it can perform & an associated outcome t
 
 Actions that add a non-damaging effect (such as increasing DR while blocking) do not stack with itself. When a character makes multiple of these actions in a turn, they apply the best bonus. For example, if a character wishes to block with a shield and rolls a 3, they can redo the action for a better score. If the next score is a 8, then they try again and roll a 6, the 8 still is the value used.
 
+---
+
 # Armor
+
+Unlike other games, armor plays a bigger factor than just protection. Armor is where your character will find slots to store gear, so armor determines how many items you can carry. Armor also can have special properties such as a gas mask to nullify poison clouds, muffled boots to improve sneaking, and hidden compartments to smuggle items. Each piece of armor has a strength requirement, and each piece covers one section of the character (head, body, arms, legs).
+
+## Armor Class (AC)
+
+Armor can have an armor class associated with it, meaning it will be harder for the enemy to hit you. The number associated with the AC will be a negative modifier to anyone who tries to attack that part of the character.
+
+## Damage Reduction (DR)
+
+Armor can have a damage reduction associated with it that will reduce the damage the character takes. For example, if a character gets hit with 6 damage, but has 3 DR, then the character will only take 3 damage instead. Damage can only be reduced to 1, meaning a character who is hit will always take at least 1 point of damage.
+
+## Slots, Slot Speed, Hidden Slots
+
+Each piece of armor will have slots for items to be stored. Those slots will also have a slot speed associated with them, which will state how much AP will be needed to access items from each slot. Some slots will have a hidden number assigned to them, meaning that any item stored in this slot is hidden to outside viewers until it is searched for. The number associated with the hidden slot is the DC to discover the hidden item on a search.
+
+## Special Properties
+
+Some armor, usually either rare finds or customized gear, will have special properties with them. These act the same as perks the character has as long as they are wearing the armor.
+
+---
+
+# Magic Types
+
+Like there are many different types of combat styles, there are different types of magic users. Each style of magic has it's own casting costs and unique spells associated with it.
+
+## Arcane
+
+Acquired after years of study.
+
+- XP cost for acquiring spells increased by one tier.
+- Spells are prepped ahead of time, holding 1 AP until the spell is cast.
+- Spells can be transferred into gems, allowing others to access them.
+
+## Sorcery
+
+For those who are born with the gift of magic.
+
+- All spells cost MP along with AP.
+
+## Blood Magic
+
+Using ones own life force to bend magic.
+
+- All spells cost HP along with AP.
+- Does not gain access to healing spells.
+- Any MP cost associated with a spell costs HP instead.
+
+## Divine Magic / Pact Magic
+
+Magic that is gained from an outside, supernatural force.
+
+- All magic is granted through the entity the character works with.
+- Spells can be learned as soon as the entity grants permission.
+- Spells can be taken away if the entity decides to.
+- Users of this type of magic must work with their deity/patron.
+
+## Witchery
+
+Magic that is used like a craft.
+
+- XP cost for acquiring spells is decreased by one tier.
+- All spells are cast through rituals, tripling the casting time.
+- All spells require items & a spoken incantation to work.
+- Spells power can be increased with the use of a cauldron.
+
+---
+
+# Spells
+
+[Intro, everything should have an introduction]
+
+## Base casting cost & effect
+
+## Modifying spells
+
+## Spell Failure
+
+---
+
+# Skills
+
+## Melee attack
+
+## Ranged attack
+
+## Acrobatics
+
+## Athletics
+
+## Sneak
+
+## Sleight of Hand
+
+## Ride/Pilot/Drive
+
+## Tracking
+
+## Animal Handling
+
+## First Aid
+
+## Persuade
+
+## Deceive
+
+## Perform
+
+## Elements (plus energy, acid, force, etc.,)
+
+## Matter (conjuration & transmutation)
+
+## Mental (divination & illusion)
+
+## Life (restoration & necromancy)
+
+## Crafting/Knowledge
